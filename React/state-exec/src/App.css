@@ -1,0 +1,12 @@
+.App {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: black;
+}
+.colorDiv {
+  border: 1px solid white;
+  height: 160px;
+  width: 160px;
+}
