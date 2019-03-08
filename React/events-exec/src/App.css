@@ -1,0 +1,51 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+hr {
+	width: 400px;
+	height: 3px;
+	background: grey;
+	margin-bottom: 25px;
+	border-radius: 5px;
+	box-shadow: 2px 2px;
+}
+.todo-input {
+	padding: 5px 20px;
+	font-size: 1.2em;
+	outline: none;
+}
+
+.saveBtn {
+	font-size: 1.2em;
+	background-color: lightblue;
+	color: green;
+	margin: 5px;
+	border-radius: 5px;
+	outline: none;
+}
+.content {
+	width: 50%;
+}
+
+.content ol li {
+  margin: 10px;
+  font-size: 1.2em;
+}
+.delBtn {
+	margin-left: 15px;
+	background: red;
+	border: none;
+	color: #fff;
+	font-size: 0.8em;
+	border-radius: 5px;
+	outline: none;
+}
+
+@media (max-width: 700px) {
+	.content {
+		width: 95%;
+	}
+}
