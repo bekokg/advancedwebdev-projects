@@ -1,5 +1,5 @@
 import {ADD_TODO, REMOVE_TODO, GET_TODOS } from './actionCreators';
-
+//initialState
 const initialState = {
 	todos: []
 };
