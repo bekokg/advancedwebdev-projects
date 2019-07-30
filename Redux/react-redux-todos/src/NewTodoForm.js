@@ -14,7 +14,7 @@ class NewTodoForm extends Component {
 		e.target.reset();
 		this.props.history.push('/todos')
 	}
-
+  //This is handling the change
 	handleChange = e => {
 		this.setState({
 			[e.target.name]: [e.target.value]
